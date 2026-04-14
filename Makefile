@@ -1,7 +1,7 @@
 all: main
 
 CC=gcc
-CFLAGS=
+CFLAGS=-lSDL3 -lSDL3_ttf
 OUTPUT_FILE=maxgte
 
 main:
